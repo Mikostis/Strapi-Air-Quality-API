@@ -1,0 +1,70 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/air-qualities",
+      "handler": "air-quality.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/air-qualities/count",
+      "handler": "air-quality.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/air-qualities/:id",
+      "handler": "air-quality.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/air-qualities",
+      "handler": "air-quality.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/air-qualities/:id",
+      "handler": "air-quality.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/air-qualities/:id",
+      "handler": "air-quality.delete",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/most-polluted-datetime",
+      "handler": "air-quality.findMostPolluted"
+     
+    },
+  {
+      "method": "GET",
+      "path": "/paris",
+      "handler": "air-quality.fetchParisAirPollution"
+     
+    },
+     {
+      "method": "GET",
+      "path": "/nearest-city",
+      "handler": "air-quality.fetchNearestCity"
+     
+    }     
+  ]
+}

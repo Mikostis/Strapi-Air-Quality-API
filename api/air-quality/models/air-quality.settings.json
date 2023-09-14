@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "air_qualities",
+  "info": {
+    "name": "air-quality",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "city": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "timestamp": {
+      "type": "string"
+    },
+    "aqius": {
+      "type": "decimal"
+    },
+    "mainus": {
+      "type": "string"
+    },
+    "aqicn": {
+      "type": "decimal"
+    },
+    "maincn": {
+      "type": "string"
+    },
+    "year": {
+      "type": "integer"
+    },
+    "day": {
+      "type": "integer"
+    },
+    "hour": {
+      "type": "string"
+    },
+    "month": {
+      "type": "integer"
+    }
+  }
+}
