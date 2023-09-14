@@ -1,7 +1,7 @@
 # Air Quality API Documentation
 
 Welcome to the documentation for the Air Quality API, a project aimed at providing real-time air quality information for cities around the world and to be more specific about Paris.
-This API allows you to access air quality data for specific locations (Paris), monitor pollution levels, and integrate air quality information into your applications.
+This API allows you to access air quality data for specific locations like Berlin Germany, monitor pollution levels, and integrate air quality information into your applications.
 
 #### Technology Stack:
 
@@ -28,8 +28,7 @@ The Air Quality API relies on the IQAIR platform to fetch air quality data for t
 
 Retrieve air quality data for the Paris Zone.
 Schedule automated data updates using a CRON job every 1 minute.
-Access the most polluted date and time in Paris.
-Before you begin, please make sure you have obtained an API key from IQAIR, as described in the project's configuration section.
+Access the most polluted date and time in Berlin.
 
 Now, let's explore how to use the API and leverage its capabilities.
 

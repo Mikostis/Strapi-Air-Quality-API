@@ -35,7 +35,7 @@ module.exports = {
   async fetchParisAirPollution(ctx) {
     try {
       const apiKey = "0d132a15-ab92-4b8b-8ff6-45d883a8b1f5";
-      const apiUrl = `http://api.airvisual.com/v2/city?city=Paris&state=Ile-de-France&country=France&key=${apiKey}`;
+      const apiUrl = `http://api.airvisual.com/v2/city?city=Berlin&state=Brandenburg&country=Germany&key=${apiKey}`;
 
       // fetch air quality data
       const response = await fetch(apiUrl);
