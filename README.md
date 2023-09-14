@@ -1,8 +1,7 @@
 # Air Quality API Documentation
 
-Welcome to the documentation for the Air Quality API, a project aimed at providing real-time air quality information for cities around the world and to be more specific about Paris.
+Welcome to the documentation for the Air Quality API, a project aimed at providing real-time air quality information for cities around the world and to be more specific about the nearest city of yours location and Berlin.
 This API allows you to access air quality data for specific locations like Berlin Germany, monitor pollution levels, and integrate air quality information into your applications.
-
 #### Technology Stack:
 
 Node.js: Backend server
