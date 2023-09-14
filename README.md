@@ -11,7 +11,6 @@ http://localhost:1337/admin
 
 4) To access the server ⚡️, go to:
 http://localhost:1337
-5) Credentials kostismichalisuth@gmail.com - 12345678Aa
 
 ## Project Overview
 
