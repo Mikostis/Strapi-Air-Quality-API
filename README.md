@@ -3,9 +3,17 @@
 Welcome to the documentation for the Air Quality API, a project aimed at providing real-time air quality information for cities around the world and to be more specific about Paris.
 This API allows you to access air quality data for specific locations (Paris), monitor pollution levels, and integrate air quality information into your applications.
 
+#### Technology Stack:
+
+Node.js: Backend server
+Strapi CMS: Data management
+IQAIR API: Source of air quality data
+
 ## Install and Run the Code
 1) npm install
+
 2) npm run develop
+   
 3) To manage your project 🚀, go to the administration panel at:
 http://localhost:1337/admin
 
@@ -67,3 +75,9 @@ Description: This endpoint provides you with the date and time of the most pollu
 
 Request:
 GET /most-polluted-datetime
+
+### Purpose:
+
+The Air Quality API serves as a valuable resource for developers, researchers, and organizations interested in accessing accurate and up-to-date air quality information for the city of Paris. It promotes informed decision-making and the development of applications that contribute to better air quality awareness.
+
+Note: The project is developed with a strong commitment to quality and efficiency, with potential for further enhancements and integrations.
